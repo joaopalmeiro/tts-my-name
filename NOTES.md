@@ -32,6 +32,7 @@
 - https://omegaconf.readthedocs.io/en/2.3_branch/custom_resolvers.html
 - https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#setting-environment-variables
 - https://github.com/pytorch/pytorch/issues/77764
+- https://news.ycombinator.com/item?id=35585452
 
 ## Commands
 
