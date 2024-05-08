@@ -25,10 +25,6 @@ conda list
 ```
 
 ```bash
-python 01.py
-```
-
-```bash
 ruff check
 ```
 
@@ -38,6 +34,10 @@ ruff check --fix
 
 ```bash
 ruff format
+```
+
+```bash
+python 01.py
 ```
 
 ```bash
