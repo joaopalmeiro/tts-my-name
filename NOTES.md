@@ -29,6 +29,9 @@
 - https://stackoverflow.com/questions/5214578/print-string-to-text-file
 - https://pytorch.org/docs/stable/notes/mps.html
 - https://developer.apple.com/metal/pytorch/
+- https://omegaconf.readthedocs.io/en/2.3_branch/custom_resolvers.html
+- https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#setting-environment-variables
+- https://github.com/pytorch/pytorch/issues/77764
 
 ## Commands
 
@@ -42,4 +45,8 @@ conda deactivate && conda env remove --name asr-scripts
 
 ```bash
 conda deactivate && conda env remove --name asr-scripts && conda env create -f environment.yml && conda activate asr-scripts
+```
+
+```bash
+conda env config vars list
 ```

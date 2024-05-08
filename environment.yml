@@ -19,3 +19,5 @@ dependencies:
   - pytorch=2.1.2
   # https://anaconda.org/conda-forge/omegaconf?version=2.3.0
   - omegaconf=2.3.0
+variables:
+  PYTORCH_ENABLE_MPS_FALLBACK: 1
