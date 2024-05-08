@@ -27,6 +27,8 @@
 - https://pypi.org/project/omegaconf/
 - https://omegaconf.readthedocs.io/en/2.3_branch/usage.html#from-a-yaml-file
 - https://stackoverflow.com/questions/5214578/print-string-to-text-file
+- https://pytorch.org/docs/stable/notes/mps.html
+- https://developer.apple.com/metal/pytorch/
 
 ## Commands
 

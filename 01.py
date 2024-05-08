@@ -1,7 +1,10 @@
 from pathlib import Path
 
+import torch
 from omegaconf import OmegaConf
 from transformers import pipeline
+
+DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 
 def write_txt(data: str, output_path: Path) -> None:
@@ -16,6 +19,7 @@ if __name__ == "__main__":
         "automatic-speech-recognition",
         model="openai/whisper-large-v3",
         revision="1ecca609f9a5ae2cd97a576a9725bc714c022a93",
+        device=DEVICE,
     )
 
     output = model(conf.input_audio, generate_kwargs={"language": "english"})["text"]
