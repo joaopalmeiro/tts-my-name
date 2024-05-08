@@ -1,0 +1,7 @@
+.DS_Store
+.mypy_cache/
+
+# https://docs.astral.sh/ruff/settings/#cache-dir
+.ruff_cache/
+
+*.m4a
