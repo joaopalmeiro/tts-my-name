@@ -9,6 +9,10 @@ Scripts to run Automatic Speech Recognition models and convert audio files to te
 Install [Miniconda](https://conda.io/projects/conda/en/latest/index.html) (if necessary).
 
 ```bash
+cp config.example.yml config.yml
+```
+
+```bash
 conda env create -f environment.yml
 ```
 

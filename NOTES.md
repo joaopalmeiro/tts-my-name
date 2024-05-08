@@ -24,6 +24,9 @@
 - https://huggingface.co/docs/transformers/model_doc/whisper#transformers.WhisperModel
 - https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/configuration.html:
   - "There is an experimental feature that is currently only supported by the [Jupyverse](https://github.com/jupyter-server/jupyverse) server (not yet with [jupyter-server](https://github.com/jupyter-server/jupyter_server), see the [issue #900](https://github.com/jupyter-server/jupyter_server/issues/900)): server-side execution. With this, running notebook code cells is not done in the frontend through the low-level kernel protocol over WebSocket API, but through a high-level REST API. Communication with the kernel is then delegated to the server, and cell outputs are populated in the notebook shared document. The frontend gets these outputs changes and shows them live. What this means is that the notebook state can be recovered even if the frontend disconnects, because cell outputs are not populated frontend-side but server-side."
+- https://pypi.org/project/omegaconf/
+- https://omegaconf.readthedocs.io/en/2.3_branch/usage.html#from-a-yaml-file
+- https://stackoverflow.com/questions/5214578/print-string-to-text-file
 
 ## Commands
 

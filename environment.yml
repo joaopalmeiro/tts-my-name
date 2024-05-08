@@ -17,3 +17,5 @@ dependencies:
   # https://anaconda.org/conda-forge/pytorch?version=2.1.2
   # https://github.com/huggingface/transformers/blob/v4.40.2/setup.py#L262
   - pytorch=2.1.2
+  # https://anaconda.org/conda-forge/omegaconf?version=2.3.0
+  - omegaconf=2.3.0
