@@ -5,4 +5,5 @@
 .ruff_cache/
 
 *.m4a
+*.txt
 config.yml
