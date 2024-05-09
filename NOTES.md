@@ -37,6 +37,18 @@
   - https://discuss.huggingface.co/t/adding-custom-vocabularies-on-whisper/29311/5
   - https://huggingface.co/blog/fine-tune-whisper
   - https://github.com/huggingface/transformers/pull/28556
+- FFmpeg:
+  - https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video
+  - https://www.bannerbear.com/blog/how-to-trim-a-video-using-ffmpeg/
+  - https://stackoverflow.com/questions/18444194/cutting-multimedia-files-based-on-start-and-end-time-using-ffmpeg
+  - https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections
+  - https://www.bannerbear.com/blog/how-to-use-ffmpeg-in-python-with-examples/
+  - https://github.com/kkroening/ffmpeg-python
+  - https://github.com/Ch00k/ffmpy
+  - https://github.com/livingbio/typed-ffmpeg
+  - https://github.com/ffmpegwasm/ffmpeg.wasm
+- https://macpaw.com/how-to/copy-file-path-mac
+- https://libyear.com/
 
 ## Commands
 
@@ -54,4 +66,8 @@ conda deactivate && conda env remove --name asr-scripts && conda env create -f e
 
 ```bash
 conda env config vars list
+```
+
+```bash
+ffmpeg -ss 00:33:50 -t 10 -i video1984602622.mp4 short.mp4
 ```
