@@ -33,6 +33,10 @@
 - https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#setting-environment-variables
 - https://github.com/pytorch/pytorch/issues/77764
 - https://news.ycombinator.com/item?id=35585452
+- https://discuss.huggingface.co/t/adding-custom-vocabularies-on-whisper/29311/2:
+  - https://discuss.huggingface.co/t/adding-custom-vocabularies-on-whisper/29311/5
+  - https://huggingface.co/blog/fine-tune-whisper
+  - https://github.com/huggingface/transformers/pull/28556
 
 ## Commands
 
