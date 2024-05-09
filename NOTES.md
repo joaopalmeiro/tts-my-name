@@ -71,3 +71,7 @@ conda env config vars list
 ```bash
 ffmpeg -ss 00:33:50 -t 10 -i video1984602622.mp4 short.mp4
 ```
+
+```bash
+ffmpeg -ss 00:33:50 -to 00:34:00 -i video1984602622.mp4 short.mp4
+```
