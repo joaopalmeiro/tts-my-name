@@ -3,6 +3,10 @@
 - https://conda-forge.org/packages/
 - https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually
 - https://github.com/Zulko/moviepy
+- https://zulko.github.io/moviepy/
+- https://pypi.org/project/moviepy/
+- https://github.com/Zulko/moviepy/releases
+- https://anaconda.org/conda-forge/moviepy?version=1.0.3
 - https://github.com/SYSTRAN/faster-whisper
 - https://github.com/jiaaro/pydub
 - https://github.com/Vaibhavs10/insanely-fast-whisper:
@@ -49,6 +53,13 @@
   - https://github.com/ffmpegwasm/ffmpeg.wasm
 - https://macpaw.com/how-to/copy-file-path-mac
 - https://libyear.com/
+- https://github.com/scikit-video/scikit-video
+- https://github.com/numairawan/video-duration
+- https://github.com/PyAV-Org/PyAV
+- https://github.com/imageio/imageio
+- https://github.com/imageio/imageio-ffmpeg
+- https://pypi.org/project/typed-ffmpeg/
+- https://github.com/livingbio/typed-ffmpeg/releases
 
 ## Commands
 
