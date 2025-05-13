@@ -6,6 +6,10 @@
 
 ## Development
 
+```bash
+cp .env.example .env
+```
+
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
 
 ```bash
