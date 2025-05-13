@@ -1,4 +1,5 @@
 gaveta==0.6.0
+kokoro==0.9.4
 mypy==1.12.0
 ruff==0.11.2
 scipy-stubs[scipy]==1.15.3.0

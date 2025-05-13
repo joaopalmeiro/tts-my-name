@@ -2,6 +2,8 @@
 
 - https://github.com/joaopalmeiro/template-python-uv-script
 - https://pypi.org/project/mlx-audio/
+- https://huggingface.co/models?pipeline_tag=text-to-speech
+- https://huggingface.co/models?inference_provider=all&pipeline_tag=text-to-speech&sort=trending
 - Models:
   - https://github.com/hexgrad/kokoro
     - https://github.com/hexgrad/kokoro/blob/2668b2e279d0f94977995230e523b0183763f30e/kokoro.js/src/voices.js#L4
@@ -13,6 +15,8 @@
     - https://huggingface.co/spaces/suno/bark
     - https://huggingface.co/suno/bark-small
     - [how to set The attention mask and the pad token id ?](https://github.com/suno-ai/bark/issues/402) issue
+  - https://huggingface.co/canopylabs/orpheus-3b-0.1-ft
+- https://docs.pytorch.org/docs/stable/generated/torch.Tensor.cpu.html
 
 ## Commands
 
