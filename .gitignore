@@ -1,9 +1,8 @@
-.DS_Store
+# .ruff_cache/: https://docs.astral.sh/ruff/settings/#cache-dir
+
+__pycache__/
 .mypy_cache/
-
-# https://docs.astral.sh/ruff/settings/#cache-dir
 .ruff_cache/
+.venv/
 
-*.m4a
-*.txt
-config.yml
+.DS_Store

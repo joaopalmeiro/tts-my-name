@@ -1,35 +1,43 @@
 # asr-scripts
 
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-
-Scripts to run Automatic Speech Recognition models and convert audio files to text.
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
 
 ## Development
 
-Install [Miniconda](https://conda.io/projects/conda/en/latest/index.html) (if necessary).
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
 
 ```bash
-cp config.example.yml config.yml
+curl -LsSf https://astral.sh/uv/0.6.13/install.sh | sh
 ```
 
 ```bash
-conda env create -f environment.yml
+uv python install
 ```
 
 ```bash
-conda env list
+uv venv
 ```
 
 ```bash
-conda activate asr-scripts
+source .venv/bin/activate
 ```
 
 ```bash
-conda list
+uv pip install -r requirements.txt
+```
+
+```bash
+python 01.py
 ```
 
 ```bash
 ruff check
+```
+
+```bash
+mypy
 ```
 
 ```bash
@@ -41,9 +49,5 @@ ruff format
 ```
 
 ```bash
-python 01.py
-```
-
-```bash
-conda deactivate
+deactivate
 ```
