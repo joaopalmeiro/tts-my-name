@@ -20,7 +20,7 @@ if __name__ == "__main__":
         audio_data = next(generator)[-1]
 
         write_wav(
-            RESULTS / f"my_name_{voice.replace('/', '_')}.wav",
+            RESULTS / f"my_name_{voice}.wav",
             # Source: https://github.com/hexgrad/kokoro/blob/2668b2e279d0f94977995230e523b0183763f30e/examples/phoneme_example.py#L14
             rate=24_000,
             data=audio_data.cpu().numpy(),

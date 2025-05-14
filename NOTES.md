@@ -16,7 +16,24 @@
     - https://huggingface.co/suno/bark-small
     - [how to set The attention mask and the pad token id ?](https://github.com/suno-ai/bark/issues/402) issue
   - https://huggingface.co/canopylabs/orpheus-3b-0.1-ft
+  - https://play.ai/:
+    - https://play.ai/play-dialog
+    - https://play.ai/play-mini
+    - https://docs.play.ai/documentation/text-to-speech/tts-models
 - https://docs.pytorch.org/docs/stable/generated/torch.Tensor.cpu.html
+- https://console.groq.com/docs/vision#multiturn-conversations-with-images: "Multi-turn Conversations with Images"
+- ElevenLabs:
+  - https://elevenlabs.io/docs/quickstart
+  - https://elevenlabs.io/docs/models
+  - https://elevenlabs.io/docs/cookbooks/text-to-speech/quickstart
+  - https://github.com/jiaaro/pydub
+  - https://elevenlabs.io/docs/cookbooks/text-to-speech/pronunciation-dictionaries
+  - https://elevenlabs.io/docs/api-reference/text-to-speech/convert
+  - https://elevenlabs.io/app/voice-library
+  - https://github.com/elevenlabs/elevenlabs-python
+  - https://elevenlabs.io/docs/api-reference/text-to-speech/convert#request.body.language_code: "Currently only Turbo v2.5 and Flash v2.5 support language enforcement. For other models, an error will be returned if language code is provided."
+  - https://elevenlabs.io/docs/best-practices/prompting/controls#pauses
+  - `text='"João" <break time="0.5s" /> "Palmeiro'`
 
 ## Commands
 
