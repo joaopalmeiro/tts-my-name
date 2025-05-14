@@ -8,6 +8,7 @@
   - https://github.com/hexgrad/kokoro
     - https://github.com/hexgrad/kokoro/blob/2668b2e279d0f94977995230e523b0183763f30e/kokoro.js/src/voices.js#L4
     - https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
+    - https://github.com/hexgrad/misaki
   - https://github.com/kyutai-labs/moshi
   - https://github.com/suno-ai/bark
     - https://suno-ai.notion.site/8b8e8749ed514b0cbf3f699013548683?v=bc67cff786b04b50b3ceb756fd05f68c
@@ -33,7 +34,10 @@
   - https://github.com/elevenlabs/elevenlabs-python
   - https://elevenlabs.io/docs/api-reference/text-to-speech/convert#request.body.language_code: "Currently only Turbo v2.5 and Flash v2.5 support language enforcement. For other models, an error will be returned if language code is provided."
   - https://elevenlabs.io/docs/best-practices/prompting/controls#pauses
-  - `text='"João" <break time="0.5s" /> "Palmeiro'`
+  - `{"name": "Lucas — Male, Informative Voice", "id": "SVgp5d1fyFQRW1eQbwkq"}`
+- https://arxiv.org/pdf/2304.10548:
+  - "Zero-shot vs. One-shot vs. Few-shots: Since recent work showed conflicting results on the number of examples in a prompt, we explored different prompt settings."
+  - https://arxiv.org/pdf/2107.13586
 
 ## Commands
 
