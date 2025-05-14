@@ -21,6 +21,8 @@
     - https://play.ai/play-dialog
     - https://play.ai/play-mini
     - https://docs.play.ai/documentation/text-to-speech/tts-models
+  - https://huggingface.co/parler-tts/parler-tts-mini-multilingual-v1.1
+  - https://huggingface.co/fishaudio/fish-speech-1.5
 - https://docs.pytorch.org/docs/stable/generated/torch.Tensor.cpu.html
 - https://console.groq.com/docs/vision#multiturn-conversations-with-images: "Multi-turn Conversations with Images"
 - ElevenLabs:
