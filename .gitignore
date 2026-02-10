@@ -10,3 +10,6 @@ __pycache__/
 .env
 
 results/
+
+*.onnx
+*.onnx.json

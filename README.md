@@ -29,7 +29,11 @@ uv pip install -r requirements.txt
 ```
 
 ```bash
-python 01.py
+python -m piper.download_voices pt_PT-tug%C3%A3o-medium
+```
+
+```bash
+python run_piper.py
 ```
 
 ```bash
