@@ -6,14 +6,10 @@
 
 ## Development
 
-```bash
-cp .env.example .env
-```
-
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
 
 ```bash
-curl -LsSf https://astral.sh/uv/0.6.13/install.sh | sh
+curl -LsSf https://astral.sh/uv/0.8.12/install.sh | sh
 ```
 
 ```bash
@@ -33,7 +29,7 @@ uv pip install -r requirements.txt
 ```
 
 ```bash
-ruff check
+python 01.py
 ```
 
 ```bash

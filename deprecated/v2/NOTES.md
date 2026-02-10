@@ -51,6 +51,10 @@ deactivate && uv venv && source .venv/bin/activate && uv pip install -r requirem
 uv venv && source .venv/bin/activate && uv pip install -r requirements.txt
 ```
 
+```bash
+cp .env.example .env
+```
+
 ### Clean slate
 
 ```bash
