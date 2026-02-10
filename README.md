@@ -37,6 +37,14 @@ python run_piper.py
 ```
 
 ```bash
+python run_chatterbox.py
+```
+
+```bash
+python run_qwen3_tts.py
+```
+
+```bash
 mypy
 ```
 
