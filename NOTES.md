@@ -27,6 +27,9 @@
 - https://github.com/OpenBMB/MiniCPM-o
   - https://huggingface.co/openbmb/MiniCPM-o-4_5
   - https://huggingface.co/openbmb/MiniCPM-o-4_5-gguf
+- LocalStack:
+  - https://docs.localstack.cloud/aws/services/rds/
+  - https://github.com/localstack/localstack
 
 ## Commands
 
