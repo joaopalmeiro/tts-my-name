@@ -1,3 +1,4 @@
+gaveta==0.6.0
 mypy[faster-cache]==1.16.1
 piper-tts==1.4.1
 ruff==0.14.11

@@ -9,3 +9,4 @@
   - https://github.com/OHF-Voice/piper1-gpl/blob/v1.4.1/docs/API_PYTHON.md
   - https://github.com/OHF-Voice/voice-datasets
   - https://huggingface.co/rhasspy/piper-voices/tree/main/pt/pt_PT/tug%C3%A3o/medium
+- https://www.monologue.to/
